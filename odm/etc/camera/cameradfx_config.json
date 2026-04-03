@@ -1,0 +1,29 @@
+{
+    "SENSORNAME_ROLEID_MAP":[
+        {
+            "sensorName": "o81_qtech_s5kjn1sq03_wide_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "o81_qtech_s5kjn1sq03_gt24o128e_wide_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "o81_qtech_s5kjn1sq03_gt9764_wide_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "o81_aac_ov32d40_front_i",
+            "roleID": 1
+        },
+        {
+            "sensorName": "o81_aac_ov32d40_p24c64e_front_i_eeprom",
+            "roleID": 1
+        }
+    ],
+
+    "TOMBSTONE_FUNCTION":{
+        "isEnable": true,
+        "fileNumber": 20
+    }
+}

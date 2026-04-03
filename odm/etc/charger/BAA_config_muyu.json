@@ -1,0 +1,10 @@
+{
+    "strategy": {
+        "supported_strategy_index": [
+        ],
+        "smart_fv": {
+                        "path": "/sys/class/qcom-battery/smart_fv",
+                        "decrease_mv_max": 40
+                    }
+    }
+}

@@ -1,0 +1,16 @@
+/*
+device:common
+*/
+
+{
+    // SAT fallback settings
+    "SatFallback": {
+        "satFallbackSwitch": 0,
+        "disFbZoomRatio": "0:0:0:0:0:0:5.0:20.0|0:0:0:0:0:0:5.0:10.1",
+        "luxFbZoomRatio": "0:0:2.0:5.0:5.0:20.0:0:0|0:0:2.0:5.0:5.0:10.1:0:0",
+        "satFallbackUT2T": "30:40:9999:9999|30:40:9999:9999",
+        "satFallbackUT2W": "0:0:480:430|0:0:480:430",
+        "satFallbackT2W": "0:0:450:400|0:0:450:400",
+        "satFallbackDelta": "0:10:30:0:0|0:10:30:0:0"
+    }
+}

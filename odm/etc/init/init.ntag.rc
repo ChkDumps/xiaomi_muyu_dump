@@ -1,0 +1,6 @@
+# For NTAG update
+service ntag_tool /odm/bin/ntag_tool update
+    class late_start
+    group nfc bluetooth
+    user system
+    oneshot

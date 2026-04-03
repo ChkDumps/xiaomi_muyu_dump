@@ -1,0 +1,190 @@
+{
+  comp_init_method: 'static', //0509
+  components: [
+    "resample",
+    "spaceproc",
+    "speechsplit",
+    "spacespcluster",
+  ],
+  input: {
+    flags: [
+    ],
+    streams: [
+      {
+        channel_num: 1,
+        frame_ms: 10,
+        is_continuous: true,
+        name: "raw_stream",
+        sample_rate: 48000,
+        sample_type: "int16",
+        change_sample_type: "float32",
+      },
+    ],
+  },
+  nodes: [
+    {
+      comp: "resample",
+      input: {
+        streams: [
+          {
+            source: "raw_stream",
+            frame_ms: 10,
+          },
+        ],
+      },
+      name: "resample_0",
+      output: {
+        streams: [
+          {
+            name: "raw_stream_16k",
+            frame_ms: 10,
+            sample_rate: 16000,
+            change_sample_type: "int16",
+          },
+        ],
+      },
+    },
+    {
+      comp: "speechsplit",
+      input: {
+        streams: [
+          {
+            source: "raw_stream_16k",
+            frame_ms: 32,
+          },
+        ],
+      },
+      name: "speechsplit_0",
+      output: {
+        flags: [
+          {
+            name: "voice_begin",
+            is_time_offset: true,
+            min_time_offset_ms: -1200,
+            value_type: 'int32',
+          },
+          {
+            name: "voice_end",
+            is_time_offset: true,
+            min_time_offset_ms: -1200,
+            value_type: 'int32',
+          },
+        ],
+      },
+      params: [
+        {
+          name: "scd_model_dir",
+          value: "%full_path/speechsplit_resource/model",
+        },
+        {
+          name: "vad_model_dir",
+          value: "%full_path/speechsplit_resource/cellphone",
+        },
+      ],
+      force_run: true,
+      thread: true,
+      log_level: 0,
+    },
+    {
+      comp: "spacespcluster",
+      input: {
+        streams: [
+          {
+            source: "raw_stream_16k",
+            frame_ms: 10,
+            segment: {
+              begin: "voice_begin",
+              begin_offset_ms: 0,
+              end: "voice_end",
+              end_offset_ms: 0,
+            },
+          },
+        ],
+      },
+      name: "spacespcluster_0",
+      output: {
+        flags: [
+          {
+            name: "spk_id",
+            is_time_offset: false,
+            value_type: 'int32',
+          },
+        ],
+      },
+      params: [
+        {
+          name: "resource_dir",
+          value: "%full_path/spacespcluster_resource/xvector_test_0326",
+        },
+      ],
+      force_run: true,
+      thread: true,
+      log_level: 0,
+    },
+    {
+      comp: "spaceproc",
+      input: {
+        streams: [
+          {
+            source: "raw_stream_16k",
+            change_sample_type: "float32",
+            frame_ms: 10,
+          },
+        ],
+        flags: [
+          {
+            source: "spk_id",
+          },
+        ],
+      },
+      name: "spaceproc_0",
+      output: {
+        streams: [
+          {
+            channel_num: 2,
+            frame_ms: 10,
+            is_continuous: true,
+            name: "proc_speech",
+            sample_rate: 16000,
+            sample_type: "int16",
+          },
+        ],
+      },
+      params: [
+        {
+          name: "target_angle",
+          value: "0,60,300",
+        },
+        {
+          name: "resource_dir",
+          value: "%full_path/spaceproc_resource/spaceproc_data_0218",
+        },
+      ],
+      force_run: true,
+      thread: true,
+      log_level: 0,
+    },
+  ],
+  output: {
+    streams: [
+      {
+        name: "spacespeech_out_stream_0-60-300",
+        source: "proc_speech",
+      },
+    ],
+    flags: [
+      {
+        source: "voice_begin",
+        name: "voice_begin_out",
+      },
+      {
+        source: "voice_end",
+        name: "voice_end_out",
+      },
+      {
+        source: "spk_id",
+        name: "spk_id_out",
+      }
+    ],
+  },
+}
