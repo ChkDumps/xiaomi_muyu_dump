@@ -1,0 +1,17 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=875969122
+kernel_size=4
+ramdisk_size=32768
+base_addr=0xffffffffffff9000
+kernel_offset=0x00008000
+ramdisk_offset=0x01007000
+tags_offset=0x6676ad6f
+second=second.img
+second_size=33827861
+second_offset=0x6564d976
+dt=dtb.img
+dtb_size=808745008
+dtb_offset=
+board="p=32,memsize=307"
+cmd_line='2000 swinfo.fingerprint=muyu:14/OS3.0.4.0.WOYMIXM:user mtdoops.fingerprint=muyu:14/OS3.0.4.0.WOYMIXM:user bootconfig'

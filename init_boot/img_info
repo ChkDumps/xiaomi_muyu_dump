@@ -1,0 +1,11 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=0
+kernel_size=0
+ramdisk_size=0
+base_addr=0x0022bb8b
+kernel_offset=0x00008000
+dt=dtb.img
+dtb_size=4
+dtb_offset=
+cmd_line=''

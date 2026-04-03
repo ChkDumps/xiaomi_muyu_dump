@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature mcc="260">
+        <bool name="show_data_usage_dialog">true</bool>
+    </cust_feature>
+    <cust_feature mcc="404">
+        <string name="operator_considered_non_roaming_mcclist">404,405</string>
+    </cust_feature>
+    <cust_feature mcc="456">
+        <bool name="remove_error_string_on_ussd_dialog">true</bool>
+    </cust_feature>
+    <cust_feature mcc="460">
+        <bool name="config_status_bar_support_5GA_display">true</bool>
+    </cust_feature>
+    <cust_feature mcc="313">
+        <map name="config_data_type_name_mcc">
+            <item name="1"> </item>
+            <item name="2"> </item>
+            <item name="3"> </item>
+            <item name="4">4G</item>
+            <item name="5">4G</item>
+            <item name="6">LTE</item>
+            <item name="7">LTE+</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="311">
+        <map name="config_data_type_name_mcc">
+            <item name="1"> </item>
+            <item name="2"> </item>
+            <item name="3"> </item>
+            <item name="4">4G</item>
+            <item name="5">4G</item>
+            <item name="6">LTE</item>
+            <item name="7">LTE+</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="250">
+        <bool name="config_show_vowifi_qs">true</bool>
+    </cust_feature>
+    <cust_feature mcc="316">
+        <map name="config_data_type_name_mcc">
+            <item name="1"> </item>
+            <item name="2"> </item>
+            <item name="3"> </item>
+            <item name="4">4G</item>
+            <item name="5">4G</item>
+            <item name="6">LTE</item>
+            <item name="7">LTE+</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="405">
+        <string name="operator_considered_non_roaming_mcclist">404,405</string>
+    </cust_feature>
+    <cust_feature mcc="310">
+        <map name="config_data_type_name_mcc">
+            <item name="1"> </item>
+            <item name="2"> </item>
+            <item name="3"> </item>
+            <item name="4">4G</item>
+            <item name="5">4G</item>
+            <item name="6">LTE</item>
+            <item name="7">LTE+</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="505">
+        <bool name="is_2g_disabled_for_sim">true</bool>
+    </cust_feature>
+    <cust_feature mcc="312">
+        <map name="config_data_type_name_mcc">
+            <item name="1"> </item>
+            <item name="2"> </item>
+            <item name="3"> </item>
+            <item name="4">4G</item>
+            <item name="5">4G</item>
+            <item name="6">LTE</item>
+            <item name="7">LTE+</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="420">
+        <bool name="always_enable_data_roaming">true</bool>
+    </cust_feature>
+    <cust_feature mcc="259" mnc="01">
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+    </cust_feature>
+    <cust_feature mcc="732" mnc="101">
+        <bool name="config_status_bar_show_spn_when_airplane">true</bool>
+        <string-array name="exception_force_cs_dial_numbers">
+            <item>*611</item>
+            <item>*123</item>
+        </string-array>
+        <bool name="support_call_clear_code">true</bool>
+    </cust_feature>
+    <cust_feature mcc="226" mnc="10">
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="show_wifi_calling_notification">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+        <bool name="config_show_vowifi_first_dialog">true</bool>
+    </cust_feature>
+    <cust_feature mcc="334" mnc="020">
+        <bool name="config_show_carrier_in_status_bar_header">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="870">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="859">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="450" mnc="08">
+        <string-array name="preferred_network_type_list">
+            <item>32,preferred_network_type_pref_entries_5g_preferred</item>
+            <item>20,preferred_network_type_pref_entries_4g_preferred</item>
+            <item>18,preferred_network_type_pref_entries_3g_preferred</item>
+        </string-array>
+        <bool name="disable_call_forward">false</bool>
+        <bool name="use_cdma_call_forward">true</bool>
+        <bool name="set_cdma_call_forward_pref">true</bool>
+        <bool name="use_cdma_call_waiting">true</bool>
+    </cust_feature>
+    <cust_feature mcc="204" mnc="16">
+        <string-array name="config_status_bar_show_spn_by_gid_when_airplane">
+            <item>8F</item>
+            <item>4E4C</item>
+        </string-array>
+    </cust_feature>
+    <cust_feature mcc="730" mnc="09">
+        <integer name="config_status_bar_vowifi_drawable_type">0</integer>
+    </cust_feature>
+    <cust_feature mcc="202" mnc="10">
+        <bool name="show_spn_config_without_sim_spn">true</bool>
+    </cust_feature>
+    <cust_feature mcc="460" mnc="13">
+        <bool name="support_lte_and_nr_only">true</bool>
+        <bool name="show_no_call_service_toast">true</bool>
+    </cust_feature>
+    <cust_feature mcc="208" mnc="27">
+        <bool name="config_status_bar_hide_vowifi_mcc_mnc">true</bool>
+    </cust_feature>
+    <cust_feature mcc="454" mnc="30">
+        <map name="config_data_type_name_mcc_mnc">
+            <item name="12">5G</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="222" mnc="99">
+        <bool name="support_domestic_roaming">true</bool>
+    </cust_feature>
+    <cust_feature mcc="262" mnc="01">
+        <integer name="config_operator_wifi_eap_method">5</integer>
+    </cust_feature>
+    <cust_feature mcc="655" mnc="02">
+        <string-array name="preferred_network_type_list_for_fourg_device">
+            <item>20,preferred_network_type_pref_entries_4g_preferred_vd</item>
+        </string-array>
+        <string-array name="preferred_network_type_list_for_fiveg_device">
+            <item>32,preferred_network_type_pref_entries_5g_preferred_vd</item>
+        </string-array>
+    </cust_feature>
+    <cust_feature mcc="748" mnc="07">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="214" mnc="03">
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="show_wifi_calling_notification">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+        <bool name="config_show_vowifi_first_dialog">true</bool>
+    </cust_feature>
+    <cust_feature mcc="202" mnc="01">
+        <string name="config_customized_wifi_ssid">COSMOTEWiFiAuto</string>
+        <integer name="config_operator_wifi_eap_method">5</integer>
+    </cust_feature>
+    <cust_feature mcc="457" mnc="07">
+        <bool name="support_nr_only">true</bool>
+        <bool name="remove_network_mode_all_device">true</bool>
+    </cust_feature>
+    <cust_feature mcc="525" mnc="02">
+        <bool name="is_2g_enabled_for_sim">true</bool>
+    </cust_feature>
+    <cust_feature mcc="724" mnc="03">
+        <bool name="config_status_bar_show_mobile_type_when_wifi_on">true</bool>
+    </cust_feature>
+    <cust_feature mcc="730" mnc="01">
+        <integer name="config_status_bar_volte_drawable_type">2</integer>
+    </cust_feature>
+    <cust_feature mcc="440" mnc="51">
+        <bool name="config_both_show_plmn_and_spn">true</bool>
+    </cust_feature>
+    <cust_feature mcc="716" mnc="06">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="call_forwarding_display_only_cfu">true</bool>
+    </cust_feature>
+    <cust_feature mcc="286" mnc="02">
+        <bool name="config_status_bar_hide_national_roaming">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="868">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="440" mnc="20">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+        <bool name="config_dismiss_countryiso_after_conference">true</bool>
+    </cust_feature>
+    <cust_feature mcc="208" mnc="01">
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="wifi_call_help_view_france">true</bool>
+        <map name="plmn_network_display_rule">
+            <item name="21403">4,1,Orange SP</item>
+            <item name="26201">4,1,Telekom</item>
+        </map>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+        <bool name="config_show_vowifi_first_dialog">true</bool>
+    </cust_feature>
+    <cust_feature mcc="208" mnc="20">
+        <bool name="disable_smsc_setting_update">true</bool>
+    </cust_feature>
+    <cust_feature mcc="520" mnc="04">
+        <bool name="unuse_voice_class_for_cb">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="861">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="856">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="234" mnc="33">
+        <bool name="config_hide_network_and_use_default_rat">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="873">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="454" mnc="383">
+        <map name="config_data_type_name_mcc_mnc">
+            <item name="12">5G</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="460" mnc="04">
+        <bool name="show_satelliste_business_entry">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="871">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="854">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="466" mnc="03">
+        <integer name="config_call_forward_ps_timer_seconds">40</integer>
+        <integer name="config_call_forward_cs_timer_seconds">20</integer>
+    </cust_feature>
+    <cust_feature mcc="214" mnc="07">
+        <bool name="is_call_barring_no_need_password">true</bool>
+    </cust_feature>
+    <cust_feature mcc="460" mnc="59">
+        <bool name="show_satelliste_business_entry">true</bool>
+    </cust_feature>
+    <cust_feature mcc="334" mnc="03">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="865">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="214" mnc="04">
+        <bool name="operator_considered_non_roaming">true</bool>
+    </cust_feature>
+    <cust_feature mcc="334" mnc="090">
+        <integer name="config_operator_wifi_eap_constants">23</integer>
+        <bool name="config_prefer_2g_bool">false</bool>
+        <bool name="show_wifi_calling_first_avaliable_dialog">true</bool>
+        <bool name="config_support_wifi_customization">true</bool>
+        <string name="config_customized_wifi_provider_friendly_name">AT&amp;T MX Wi-Fi</string>
+    </cust_feature>
+    <cust_feature mcc="732" mnc="123">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="862">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="869">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="520" mnc="03">
+        <bool name="is_sim_restricted">true</bool>
+    </cust_feature>
+    <cust_feature mcc="234" mnc="20">
+        <bool name="is_pam_required">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="874">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="262" mnc="06">
+        <integer name="config_operator_wifi_eap_method">5</integer>
+    </cust_feature>
+    <cust_feature mcc="250" mnc="99">
+        <bool name="config_show_vowifi_qs">true</bool>
+    </cust_feature>
+    <cust_feature mcc="234" mnc="15">
+        <bool name="show_vowifi_ecc_warning_dialog">false</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="857">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="460" mnc="15">
+        <bool name="support_lte_and_nr_only">true</bool>
+        <bool name="show_no_call_service_toast">true</bool>
+    </cust_feature>
+    <cust_feature mcc="724" mnc="11">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="872">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="334" mnc="02">
+        <bool name="config_show_carrier_in_status_bar_header">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="840">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="232" mnc="01">
+        <bool name="use_voice_class_for_cb">true</bool>
+    </cust_feature>
+    <cust_feature mcc="232" mnc="10">
+        <bool name="is_pam_required">true</bool>
+    </cust_feature>
+    <cust_feature mcc="450" mnc="06">
+        <bool name="disable_call_forward">false</bool>
+        <bool name="config_show_prefer_3g">false</bool>
+        <bool name="use_cdma_call_forward">true</bool>
+        <bool name="set_cdma_call_forward_pref">true</bool>
+        <bool name="use_cdma_call_waiting">true</bool>
+    </cust_feature>
+    <cust_feature mcc="334" mnc="050">
+        <integer name="config_operator_wifi_eap_constants">23</integer>
+        <bool name="show_wifi_calling_first_avaliable_dialog">true</bool>
+        <bool name="config_support_wifi_customization">true</bool>
+        <string name="config_customized_wifi_provider_friendly_name">AT&amp;T MX Wi-Fi</string>
+    </cust_feature>
+    <cust_feature mcc="466" mnc="02">
+        <integer name="config_call_forward_ps_timer_seconds">40</integer>
+        <integer name="config_call_forward_cs_timer_seconds">20</integer>
+    </cust_feature>
+    <cust_feature mcc="286" mnc="03">
+        <bool name="config_status_bar_hide_national_roaming">true</bool>
+    </cust_feature>
+    <cust_feature mcc="502" mnc="12">
+        <bool name="is_only_show_plmn">true</bool>
+    </cust_feature>
+    <cust_feature mcc="647" mnc="00">
+        <bool name="config_show_vowifi_qs">true</bool>
+    </cust_feature>
+    <cust_feature mcc="297" mnc="02">
+        <string name="config_wfc_display_spn_name"> </string>
+    </cust_feature>
+    <cust_feature mcc="454" mnc="13">
+        <map name="config_data_type_name_mcc_mnc">
+            <item name="12">5G</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="231" mnc="01">
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="show_wifi_calling_notification">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+        <bool name="config_show_vowifi_first_dialog">true</bool>
+    </cust_feature>
+    <cust_feature mcc="270" mnc="99">
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="866">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="730" mnc="07">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="863">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="214" mnc="01">
+        <bool name="support_fdn_data_enable">true</bool>
+    </cust_feature>
+    <cust_feature mcc="222" mnc="88">
+        <bool name="support_domestic_roaming">true</bool>
+    </cust_feature>
+    <cust_feature mcc="260" mnc="01">
+        <bool name="config_disable_mms_without_vowifi">true</bool>
+    </cust_feature>
+    <cust_feature mcc="744" mnc="04">
+        <bool name="unuse_voice_class_for_cb">true</bool>
+    </cust_feature>
+    <cust_feature mcc="730" mnc="03">
+        <bool name="set_clir_values_default_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="232" mnc="05">
+        <bool name="is_pam_required">true</bool>
+    </cust_feature>
+    <cust_feature mcc="204" mnc="04">
+        <bool name="support_convert_ussd_mode">true</bool>
+    </cust_feature>
+    <cust_feature mcc="454" mnc="12">
+        <map name="config_data_type_name_mcc_mnc">
+            <item name="12">5G</item>
+        </map>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="858">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="730" mnc="10">
+        <integer name="config_status_bar_volte_drawable_type">2</integer>
+    </cust_feature>
+    <cust_feature mcc="740" mnc="00">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="724" mnc="10">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="340" mnc="01">
+        <bool name="config_statusbar_hide_volte">true</bool>
+    </cust_feature>
+    <cust_feature mcc="216" mnc="70">
+        <map name="manual_network_title_rule">
+            <item name="21670">2,One HU</item>
+        </map>
+        <map name="manual_network_spn_rule">
+            <item name="21670">3,One HU</item>
+        </map>
+        <string name="spn_override_name">One HU</string>
+    </cust_feature>
+    <cust_feature mcc="234" mnc="10">
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="set_call_waiting_enabled">true</bool>
+    </cust_feature>
+    <cust_feature mcc="734" mnc="04">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="260" mnc="03">
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="show_wifi_calling_dialog">true</bool>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+        <bool name="config_disable_mms_without_vowifi">true</bool>
+        <bool name="config_show_vowifi_first_dialog">true</bool>
+    </cust_feature>
+    <cust_feature mcc="466" mnc="01">
+        <integer name="config_call_forward_ps_timer_seconds">40</integer>
+        <integer name="config_call_forward_cs_timer_seconds">20</integer>
+    </cust_feature>
+    <cust_feature mcc="208" mnc="26">
+        <bool name="display_network_title">false</bool>
+    </cust_feature>
+    <cust_feature mcc="716" mnc="17">
+        <bool name="always_show_plmn">true</bool>
+    </cust_feature>
+    <cust_feature mcc="450" mnc="05">
+        <bool name="disable_call_forward">false</bool>
+        <bool name="use_cdma_call_forward">true</bool>
+        <bool name="set_cdma_call_forward_pref">true</bool>
+        <bool name="use_cdma_call_waiting">true</bool>
+    </cust_feature>
+    <cust_feature mcc="334" mnc="030">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="525" mnc="01">
+        <bool name="is_2g_enabled_for_sim">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="864">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="867">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="286" mnc="01">
+        <bool name="config_status_bar_hide_national_roaming">true</bool>
+        <bool name="unuse_voice_class_for_cb">true</bool>
+    </cust_feature>
+    <cust_feature mcc="730" mnc="02">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="310" mnc="410">
+        <string name="config_customized_wifi_fqdn">attwifi.com</string>
+        <integer name="config_operator_wifi_eap_constants">23</integer>
+        <string name="config_customized_wifi_realmName">wlan.mnc410.mcc310.3gppnetwork.org</string>
+        <bool name="config_support_wifi_customization">true</bool>
+        <string name="config_customized_wifi_provider_friendly_name">AT&amp;T MX Wi-Fi</string>
+    </cust_feature>
+    <cust_feature mcc="234" mnc="30">
+        <bool name="config_hide_network_and_use_default_rat">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="860">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="744" mnc="05">
+        <bool name="unuse_voice_class_for_cb">true</bool>
+    </cust_feature>
+    <cust_feature mcc="206" mnc="10">
+        <bool name="empty_initial_attach_apn">true</bool>
+        <bool name="config_show_mms_data_icon">true</bool>
+        <bool name="show_wifi_calling_notification">true</bool>
+        <bool name="config_show_vowifi_qs">true</bool>
+        <bool name="config_status_bar_show_mobile_type_in_mms">true</bool>
+    </cust_feature>
+    <cust_feature mcc="716" mnc="10">
+        <bool name="support_force_cs_dial">true</bool>
+        <string-array name="force_cs_dial_numbers">
+            <item>115</item>
+            <item>116</item>
+            <item>119</item>
+            <item>123</item>
+            <item>105</item>
+            <item>110</item>
+            <item>103</item>
+            <item>117</item>
+            <item>*778</item>
+            <item>*777</item>
+        </string-array>
+    </cust_feature>
+    <cust_feature mcc="466" mnc="05">
+        <string name="config_carrier_name_override">GT</string>
+    </cust_feature>
+    <cust_feature mcc="712" mnc="04">
+        <bool name="config_status_bar_show_special_5g_icon">true</bool>
+    </cust_feature>
+    <cust_feature mcc="454" mnc="03">
+        <bool name="ussd_screen_on">true</bool>
+    </cust_feature>
+    <cust_feature mcc="405" mnc="855">
+        <bool name="remove_network_mode_non_fiveg_device">true</bool>
+        <bool name="support_lte_and_above_only">true</bool>
+    </cust_feature>
+    <cust_feature mcc="724" mnc="23">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="724" mnc="06">
+        <bool name="config_operator_disable_imsRegOpt">true</bool>
+    </cust_feature>
+    <cust_feature mcc="240" mnc="01">
+        <bool name="hide_call_barring_error">true</bool>
+    </cust_feature>
+    <cust_feature mcc="440" mnc="54">
+        <bool name="config_both_show_plmn_and_spn">true</bool>
+    </cust_feature>
+    <cust_feature gid1="4E524A31" mcc="208" mnc="26">
+        <bool name="is_match_customized_mvno">true</bool>
+    </cust_feature>
+    <cust_feature gid1="4E524A31" mcc="206" mnc="01">
+        <bool name="is_match_customized_mvno">true</bool>
+    </cust_feature>
+    <cust_feature gid1="4E524A31" mcc="208" mnc="01">
+        <bool name="is_match_customized_mvno">true</bool>
+        <bool name="spn_no_need_override">true</bool>
+    </cust_feature>
+    <cust_feature mcc="208" mnc="01" spn="Rakuten">
+        <bool name="spn_no_need_override">true</bool>
+    </cust_feature>
+    <cust_feature mcc="525" mnc="05" spn="giga">
+        <bool name="show_choose_apn_dialog">false</bool>
+    </cust_feature>
+    <cust_feature gid1="FF" mcc="204" mnc="16">
+        <string name="config_wfc_display_spn_name"> </string>
+    </cust_feature>
+    <cust_feature gid1="0A" mcc="525" mnc="05">
+        <bool name="spn_show_sim_slot_id">true</bool>
+    </cust_feature>
+</cust_features>
