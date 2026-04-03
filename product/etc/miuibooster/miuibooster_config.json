@@ -1,0 +1,13 @@
+{
+    "localAuthPkg": ["com.miui.home","com.android.systemui","com.mi.testmibridge","com.miui.personalassistant","com.miui.calculator.go","com.android.settingslib.bluetooth","com.ss.android.article.news","com.sankuai.meituan","com.ss.android.ugc.aweme","com.sina.weibo","com.tencent.weishi","com.youku.phone","com.kugou.android","com.xingin.xhs","com.cainiao.wireless"],
+    "cpufreq": {
+        "little_core_value": [4095, 1708, 1228],
+        "big_core_value": [4095, 2361, 1708],
+        "prime_core_value": [4095, 2457, 1900]
+    },
+    "gpufreq": [0, 2, 5],
+    "ddrfreq": {
+        "values": [4224000, 3686000, 3187000],
+        "is_LLCC_DDR_BW_V2": true
+    }
+}
